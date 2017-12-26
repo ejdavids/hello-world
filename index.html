@@ -1,9 +1,16 @@
+<!DOCTYPE html>
 <html>
+
 <head>
-  <title></title>
+  <script data-require="angular.js@1.6.6" data-semver="1.6.6" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.6/angular.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
 </head>
-<body>
-  <h1><b>Hello world!</b></h1>
-  <p>Test updated Labmda pointing to develop branch</p>
+
+<body ng-app="myApp">
+  <div ng-controller="myController">
+    <h1>{{message}}</h1>
+  </div>
 </body>
+
 </html>
